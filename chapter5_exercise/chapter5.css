@@ -24,13 +24,17 @@ header {
 }
 
 .nav-list-item {
+  list-style: none;
   display: inline-block;
   color: blue;
   margin: 0 20px;
 }
 
-div {
-
+.main {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .square1 {
